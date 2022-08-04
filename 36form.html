@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: auto;
+            padding: 10px;
+            width: fit-content;
+            
+            background-color: cadetblue;
+            margin: auto;
+            text-align: center;
+            background-image: url(./IMAGE/eaf65b4c938f3221e0c9bf5a3a9baa60.jpeg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-color: antiquewhite;
+        }
+        input{
+            float: right;
+        }
+        
+    </style>
+</head>
+<body>
+   <form>
+        <!-- wheneve you want single dot selct we inside (for as gender) after that input we use (name="gender") -->
+       
+        <label for="">FIRST NAME :</label>
+       <input type="text" required>
+       <!-- if you want wny text field mandatory we are going to use required -->
+        <br>
+        <br>
+
+        <!-- if you want space every name we use (br) tag  -->
+        <label for="">LAST NAME :</label>
+        <input type="text" required>
+        <br>
+        <br>
+         <label for="gender">GENDER:</label>
+        <input type="radio" name="gender"> MALE
+        <input type="radio" name="gender">FEMALE
+        <input type="radio" name="gender">OTHERS
+        <br>
+        <br>
+        
+       
+     
+        <label for="QUALIFICATION :">QUALIFICATION: </Label>
+            <select name="" id="">
+                <option value="QUALIFICATION">QUALIFICATION</option>
+                <option value="B.TEECH">BTECH</option>
+                <option value="BE">BE</option>
+                <option value="BCA">BCA</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M.TECH">M.TECH</option>
+                <option value="BBA">BBA</option>
+                <option value="PG">PG</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="SUBJECT">SUBJECT :</label>
+        <!-- if you want select more than one box -->
+       
+        <input type="checkbox">JAVA
+        <input type="checkbox">PYTHON
+        <input type="checkbox">SQL
+        <input type="checkbox">WEB
+        <input type="checkbox">PROGRAMMING
+        <br>
+        <br>
+           
+        
+       
+       
+       
+        
+        <label for="">PHONE :</label>
+        <input type="text" name="country code" value="+91" size="2">
+        <input type="text" name="phone" size="10">
+        <br>
+        <br>
+        
+        <label for="">EMAIL :</label>
+        <input type="email" required>
+        <!-- <input type="email">  if you want @gmail.com mandatory we use  -->
+        <br><br>
+        
+
+       <label for="">YEAR OF PASSOUT :</label>
+       <input type="number" min="2010" max="2022"> 
+       <br>
+       <br>
+       <label for="">DATE OF BIRTH :</label>
+       <input type="date">
+       <br>
+       <br>
+       
+       <label for="STATE">STATE :</label>
+       <input list="city" >
+       <!--  -->
+       
+       <datalist id="city" name="place">
+       <option value="ODISHA">ODISHA</option>
+       <option value="KARNATAKA">KARNATAKA</option>
+       <option value="KERALA">KERALA</option>
+       <option value="DELHI">DELHI</option>
+       <option value="MAHARASTRA">MAHARASTRA</option>
+       <option value="RAJASTHANA">RAJASTHANA</option>
+       <option value="">ANDHRA PRADESH</option>
+       <option value="">CHHATISGARH</option>
+       <option value="HIMACHALA PRA">HIMACHA PRADESH</option>
+       <option value="SIKKIM">SIKKIM</option>
+       <option value="WEST BENGAL">WEST BENGALA</option>
+       <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+       <option value="BIHAR">BIHAR</option>
+       <option value="MADHYAPRADESH"> MADHYAPRADESH</option>
+       <option value="TELANGANA">TELANGANA</option>
+       <option value="ASSAM">ASSAM</option>
+       <option value="GOA">GOA</option>
+       <option value="GUJURAT">GUJURAT</option>
+       <option value="">ARUNCHARPLADESH</option>
+       <option value="HARYANA">HARYANA</option>
+       <option value="PUNJAB">PUNJAB</option>
+       <option value="MANIPUR">MANIPUR</option>
+       <option value="MEGHALAYA">MEGHALAYA</option>
+       <option value="TAMILNADU">TAMILNADU</option>
+       <option value="TRIPURA">TRIPURA</option>
+       <option value="JHARAKHAND">JHARAKHAND</option>
+       <option value="KERALA">KERALA</option>
+       <option value="MIZORAM">MIZORAM</option>
+       <option value="NAGARAND">NAGALAND</option>
+   
+    </datalist>
+    
+        
+
+       <br>
+       <br>
+       <label for="">ADRESS :</label>
+       <textarea name="80" id="" cols="30" rows="10"></textarea>
+
+       <br>
+       <br>
+       Password
+       <input type="password" id="repass" name="repass">
+       <br>
+       <br>
+       Re-type Password
+       <input type="Password" id="repass" name="repass">
+       <br>
+       <br>
+       
+
+       <button>submit</button>
+       
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <style>
+#mainbox
+{
+    border: 2px solid black;
+    display: flex;/*if ypu want u can use float use each(red green blue) either (display flex) */
+ 
+    justify-content: space-around;/*if you want space around boxes we are going to use (*justify content space arount*)*/
+    justify-content: space-evenly; /*that mean space content equally  we use (*justify content space evenly)*/
+    justify-content: space-between;/* if yount want beetween content space we use (*justify content space b/w) */
+
+    
+}
+#red
+{
+    background-color: red;
+    height: 100px;
+    width: 30%;
+    order: 2; /* if you want to change the position of color we use (order 1.2 etc)*/
+  
+    
+}
+#green
+{
+    background-color: green;
+    height: 100px;
+    width: 30%;
+    order: 3;
+    
+}
+#blue
+{
+    background-color: blue;
+    height: 100px;
+    width: 30%;
+    order: 1;
+    
+    
+}
+
+
+
+    </style>
+</head>
+<body>
+  
+    <div id="mainbox">
+        <div id="red"></div>
+        <div id="green"></div>
+        <div id="blue"></div>
+    </div>
+</body>
+</html>

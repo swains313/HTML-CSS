@@ -1,0 +1,41 @@
+#drop ul
+{
+    /*for remove the bullet we use list style type */
+    list-style-type: none;
+    
+  
+
+}
+#drop ul li {
+    background-color: antiquewhite;
+    width: 200px;
+    border: 2px solid white;
+    height: 50px;
+    /*if you want make home into center we have to use line height give same as height of color*/
+    line-height: 50px;
+    /*For make text into center we use text align center */
+    text-align: center;
+    float: left;
+ 
+    margin: 5px;
+   
+}
+#drop ul li:hover{
+    /*if you want change the color cursor */
+    background-color: yellow;
+}
+#drop ul ul{
+    /*if you want something invisible  display none*/
+    display: none;
+    
+}
+#drop ul li:hover ul{
+    /*if you want something visible when cursor there   display block*/
+    display: block;
+
+}
+#drop
+{
+    background-color: aqua;
+}
+

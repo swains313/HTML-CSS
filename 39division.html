@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        #mainbox
+        {
+            border: 2px solid black;
+            grid-template-rows: 200px 200px; /*if you want heighth of the column we use(grid tamplate row then what size you want)*/
+            grid-template-columns: auto auto auto;/*if you want width of the column*/
+            display: grid;/*single row mean use (flex) multiple mean (grid)*/
+            grid-row-gap:30px ;/*if you want space b/w row we use grid row gap)*/
+            grid-column-gap: 30px;/*if you want space b/w column we use grid-colum -gap */
+            padding: 50px;
+
+        }
+        #id1
+        {
+            background-color: red;
+        }
+        #id2
+        {
+            background-color: green;
+        }
+        #id3
+        {
+            background-color: blueviolet;
+        }
+        #id4
+        {
+            background-color: hotpink;
+        }
+        #id5
+        {
+            background-color: gold;
+        }
+        #id6
+        {
+            background-color: yellow;
+        }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div id="mainbox">
+        <div id="id1"></div>
+        <div id="id2"></div>
+        <div id="id3"></div>
+        <div id="id4"></div>
+        <div id="id5"></div> 
+        <div id="id6"></div>
+    </div>
+    
+</body>
+</html>
